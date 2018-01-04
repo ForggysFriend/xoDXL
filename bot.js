@@ -6,8 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.content === '!givemescriptsbitch') {
+    msg.reply('https://mega.nz/#!ypUS1QpA!1MvNrCcoelvpigKPmz5an3obIfIDUA9odPLsSSaDW5o');
+  }
+  else {
+   msg.reply('command not fucking found bitch'); 
   }
 });
 
