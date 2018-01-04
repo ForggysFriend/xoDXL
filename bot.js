@@ -5,16 +5,13 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
+  if(msg.author.bot) return;
   if (msg.content === '!givemescriptsbitch') {
     msg.reply('https://mega.nz/#!ypUS1QpA!1MvNrCcoelvpigKPmz5an3obIfIDUA9odPLsSSaDW5o');
   }
   else {
-    if (msg.author == "noobhaxbot") {
-  
-    }
-    else {
+
       msg.reply('command not fucking found bitch');  
-    }
   }
 });
 
